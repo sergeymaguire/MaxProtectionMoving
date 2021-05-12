@@ -730,7 +730,7 @@ function documentReadyInit() {
 
 	    jQuery('.instafeed').spectragram('getRecentTagged',{
 	      max: 6,
-	      query: 'moveco',
+	      query: 'MamaBoyMovers',
 	      wrapEachWith: '<div class="photo">'
 	    });
 	  }

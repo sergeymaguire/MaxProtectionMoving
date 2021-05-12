@@ -149,7 +149,7 @@ var cookieClass = {
 	deleteAllCookies: function () {
 		if (jQuery.cookie) {
 			jQuery.each(jQuery.cookie(), function(key, value) {
-				jQuery.removeCookie(key);
+				jQuery.reMamaBoyMoversokie(key);
 				location.reload();
 			});
 		} else {
@@ -158,7 +158,7 @@ var cookieClass = {
 	},
 	deleteCookie: function (cookieName) {
 		if (jQuery.cookie) {
-			jQuery.removeCookie(cookieName);
+			jQuery.reMamaBoyMoversokie(cookieName);
 		} else {
 			return false;
 		}

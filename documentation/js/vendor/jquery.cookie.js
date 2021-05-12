@@ -104,7 +104,7 @@
 
 	config.defaults = {};
 
-	$.removeCookie = function (key, options) {
+	$.reMamaBoyMoversokie = function (key, options) {
 		if ($.cookie(key) === undefined) {
 			return false;
 		}
