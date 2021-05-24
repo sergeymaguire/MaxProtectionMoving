@@ -789,12 +789,11 @@
 
 							<form class="quote-form row topmargin_40" method="post" action="./">
 
-								<div class="col-sm-6">
 
-									<h3 class="entry-title">Contact info</h3>
 
 									<div class="bottommargin_10">
-										<label for="quote-first-name" class="sr-only">First Name
+										<label for="quote-first-name" class="sr-only">
+											First Name
 											<span class="required">*</span>
 										</label>
 										<div class="input-group">
@@ -804,7 +803,8 @@
 									</div>
 
 									<div class="bottommargin_10">
-										<label for="quote-last-name" class="sr-only">First Name
+										<label for="quote-last-name" class="sr-only">
+											First Name
 											<span class="required">*</span>
 										</label>
 										<div class="input-group">
@@ -814,7 +814,8 @@
 									</div>
 
 									<div class="bottommargin_10">
-										<label for="quote-email" class="sr-only">E-mail
+										<label for="quote-email" class="sr-only">
+											E-mail
 											<span class="required">*</span>
 										</label>
 										<div class="input-group">
@@ -840,117 +841,423 @@
 									</div>
 
 									<div class="bottommargin_10">
-										<label for="quote-mobile-phone2" class="sr-only">Mobile phone</label>
-										<div class="input-group">
-											<i class="flaticon-phone-call highlight"></i>
-											<input type="text" size="30" value="" name="quote-mobile-phone2" id="quote-mobile-phone2" class="form-control" placeholder="Mobile phone">
-										</div>
-									</div>
-
-									<div class="bottommargin_10">
-										<label for="quote-fax" class="sr-only">Fax</label>
-										<div class="input-group">
-											<i class="flaticon-printer highlight"></i>
-											<input type="text" size="30" value="" name="quote-fax" id="quote-fax" class="form-control" placeholder="Fax">
-										</div>
-									</div>
-
-									<div class="bottommargin_10">
-										<label for="quote-info" class="sr-only">How did you hear of us?</label>
-										<div class="input-group">
-											<i class="flaticon-glasses highlight"></i>
-											<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="How did you hear of us?">
-										</div>
-									</div>
-
-								</div>
-
-								<div class="col-sm-6">
-
-									<h3 class="entry-title">More info</h3>
-
-									<div class="bottommargin_10">
-										<label for="quote-sender-place" class="sr-only">From: (Sender place)</label>
+										<label for="quote-sender-place" class="sr-only">Pickup Location(Full Address)</label>
 										<div class="input-group">
 											<i class="flaticon-truck highlight"></i>
-											<input type="text" size="30" value="" name="quote-sender-place" id="quote-sender-place" class="form-control" placeholder="From: (Sender place)">
+											<input type="text" size="30" value="" name="quote-sender-place" id="quote-sender-place" class="form-control" placeholder="Pickup Location(Full Address">
 										</div>
 									</div>
 
 									<div class="bottommargin_10">
-										<label for="quote-receiver-place" class="sr-only">From: (Sender place)</label>
-										<div class="input-group">
-											<i class="flaticon-truck highlight"></i>
-											<input type="text" size="30" value="" name="quote-receiver-place" id="quote-receiver-place" class="form-control" placeholder="From: (Receiver place)">
-										</div>
-									</div>
-
-									<div class="bottommargin_10">
-										<label for="quote-receiver-address" class="sr-only">Receiver Address</label>
-										<div class="input-group">
-											<i class="flaticon-truck-1 highlight"></i>
-											<input type="text" size="30" value="" name="quote-receiver-address" id="quote-receiver-address" class="form-control" placeholder="Receiver Address">
-										</div>
-									</div>
-
-									<div class="bottommargin_10">
-										<label for="quote-town" class="sr-only">Town / City</label>
-										<div class="input-group">
-											<i class="flaticon-house highlight"></i>
-											<input type="text" size="30" value="" name="quote-town" id="quote-town" class="form-control" placeholder="Town / City">
-										</div>
-									</div>
-
-									<div class="bottommargin_10">
-										<label for="quote-country" class="sr-only">State / Country</label>
-										<div class="input-group">
-											<i class="flaticon-placeholder highlight"></i>
-											<input type="text" size="30" value="" name="quote-country" id="quote-country" class="form-control" placeholder="State / Country">
-										</div>
-									</div>
-
-									<div class="bottommargin_10">
-										<label for="quote-zipcode" class="sr-only">Postal / Zipcode</label>
-										<div class="input-group">
-											<i class="flaticon-edit highlight"></i>
-											<input type="text" size="30" value="" name="quote-zipcode" id="quote-zipcode" class="form-control" placeholder="Postal / Zipcode">
-										</div>
-									</div>
-
-									<div class="bottommargin_10">
-										<label for="quote-cargo" class="sr-only">Cargo Type</label>
+										<label for="quote-cargo" class="sr-only">New or Existing Customer?</label>
 										<div class="input-group select-group">
 											<i class="flaticon-settings highlight"></i>
 											<select aria-required="true" id="quote-cargo" name="quote-cargo" class="choice form-control">
-												<option value="" selected data-default>Cargo Type</option>
-												<option value="type1">Type 1</option>
-												<option value="type2">Type 2</option>
-												<option value="type3">Type 3</option>
-												<option value="type4">Type 4</option>
+												<option value="" selected data-default>New or Existing Customer?</option>
+												<option value="type1">I am a new customer</option>
+												<option value="type2">I am an existing customer</option>
 											</select>
 											<i class="rt-icon2-chevron-thin-down"></i>
 										</div>
 									</div>
 
 									<div class="bottommargin_10">
-										<label for="quote-shippment" class="sr-only">Shippment Type (Regular, Express)</label>
+										<label for="quote-cargo" class="sr-only">How did you hear about Mama Boy Movers?</label>
 										<div class="input-group select-group">
-											<i class="flaticon-glasses highlight"></i>
-											<select aria-required="true" id="quote-shippment" name="quote-shippment" class="choice form-control">
-												<option value="" selected data-default>Shippment Type (Regular, Express)</option>
-												<option value="type1">Regular</option>
-												<option value="type2">Express</option>
+											<i class="flaticon-settings highlight"></i>
+											<select aria-required="true" id="quote-cargo" name="quote-cargo" class="choice form-control">
+												<option value="" selected data-default>How did you hear about Mama Boy Movers?</option>
+												<option value="type1">Internet Search</option>
+												<option value="type2">Move Helper (Uhaul)</option>
+												<option value="type3">Social Media</option>
+												<option value="type4">Referral</option>
+												<option value="type4">Other:</option>
 											</select>
 											<i class="rt-icon2-chevron-thin-down"></i>
 										</div>
 									</div>
-								</div>
+
+									<div class="bottommargin_10">
+										<label for="quote-info" class="sr-only">What date would you like to depart from the pick-up location? </label>
+										<div class="input-group">
+											<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="What date would you like to depart from the pick-up location?">
+										</div>
+									</div>
+
+									<div class="bottommargin_10">
+										<label for="quote-info" class="sr-only">Is the move date (s) flexible? (Please explain)</label>
+										<div class="input-group">
+											<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="Is the move date (s) flexible? (Please explain)">
+										</div>
+									</div>
+
+									<div class="bottommargin_10">
+										<label for="quote-info" class="sr-only">What date would you like to arrive at the new location? </label>
+										<div class="input-group">
+											<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="What date would you like to arrive at the new location?">
+										</div>
+									</div>
+
+									<div class="bottommargin_10">
+										<label for="quote-info" class="sr-only">What is the FULL address of the drop-off location? (Final Destination)</label>
+										<div class="input-group">
+											<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="What is the FULL address of the drop-off location? (Final Destination)">
+										</div>
+									</div>
+
+									<div class="bottommargin_10">
+										<label for="quote-info" class="sr-only">Is there more than one pick up location? If so, please explain and provide the address.</label>
+										<div class="input-group">
+											<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="Is there more than one pick up location? If so, please explain and provide the address.">
+										</div>
+									</div>
+
+									<div class="bottommargin_10">
+										<label for="quote-info" class="sr-only">Is there more than one drop off location? If so, please explain and provide the address. </label>
+										<div class="input-group">
+											<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="Is there more than one drop off location? If so, please explain and provide the address.">
+										</div>
+									</div>
+
+									<div class="bottommargin_10">
+										<label for="quote-info" class="sr-only">What is your anticipated job start time?</label>
+										<div class="input-group">
+											<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="What is your anticipated job start time?">
+										</div>
+									</div>
+
+									<div class="bottommargin_10">
+										<label for="quote-cargo" class="sr-only">Is the job start time flexible? (Please select the best option)</label>
+										<div class="input-group select-group">
+											<i class="flaticon-settings highlight"></i>
+											<select aria-required="true" id="quote-cargo" name="quote-cargo" class="choice form-control">
+												<option value="" selected data-default>Is the job start time flexible? (Please select the best option)</option>
+												<option value="type1">No</option>
+												<option value="type2">Yes, anytime as long as the job is done that day!</option>
+												<option value="type3">Yes, anytime between 8AM -12 PM</option>
+												<option value="type4">Yes, anytime between 12 PM- 4 PM</option>
+												<option value="type4">Other:</option>
+											</select>
+											<i class="rt-icon2-chevron-thin-down"></i>
+										</div>
+									</div>
 
 
-								<div class="col-sm-12 text-center">
-									<button type="submit" id="quote_submit" name="quote_submit" class="theme_button color2 topmargin_10">Get a quote</button>
-								</div>
-							</form>
+									<div class="bottommargin_10">
+										<label for="quote-cargo" class="sr-only">What building type are you moving from </label>
+										<div class="input-group select-group">
+											<i class="flaticon-settings highlight"></i>
+											<select aria-required="true" id="quote-cargo" name="quote-cargo" class="choice form-control">
+												<option value="" selected data-default>What building type are you moving from </option>
+												<option value="type1">House</option>
+												<option value="type2">Apartment</option>
+												<option value="type3">Town-home</option>
+												<option value="type4">Storage Unit or Pod</option>
+												<option value="type4">Commercial</option>
+												<option value="type4">Other:</option>
+											</select>
+											<i class="rt-icon2-chevron-thin-down"></i>
+										</div>
+
+
+
+
+
+
+
+
+										<div class="bottommargin_10">
+											<label for="quote-cargo" class="sr-only">How many stories are being moved</label>
+											<div class="input-group select-group">
+												<i class="flaticon-settings highlight"></i>
+												<select aria-required="true" id="quote-cargo" name="quote-cargo" class="choice form-control">
+													<option value="" selected data-default>How many stories are being moved</option>
+													<option value="type1">1</option>
+													<option value="type2">2</option>
+													<option value="type3">3</option>
+													<option value="type4">4</option>
+													<option value="type4">Other:</option>
+												</select>
+												<i class="rt-icon2-chevron-thin-down"></i>
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-cargo" class="sr-only">What building type are you moving to</label>
+											<div class="input-group select-group">
+												<i class="flaticon-settings highlight"></i>
+												<select aria-required="true" id="quote-cargo" name="quote-cargo" class="choice form-control">
+													<option value="" selected data-default>What building type are you moving to</option>
+													<option value="type1">House</option>
+													<option value="type2">Apartment</option>
+													<option value="type3">Town-home</option>
+													<option value="type4">Storage Unit or Pod</option>
+													<option value="type5">Commercial</option>
+													<option value="type6">Other:</option>
+												</select>
+												<i class="rt-icon2-chevron-thin-down"></i>
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-cargo" class="sr-only">How many stories are being moved to? </label>
+											<div class="input-group select-group">
+												<i class="flaticon-settings highlight"></i>
+												<select aria-required="true" id="quote-cargo" name="quote-cargo" class="choice form-control">
+													<option value="" selected data-default>How many stories are being moved to? </option>
+													<option value="type1">1</option>
+													<option value="type2">2</option>
+													<option value="type3">3</option>
+													<option value="type4">4</option>
+												</select>
+												<i class="rt-icon2-chevron-thin-down"></i>
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-cargo" class="sr-only">Is this an out of state move?  </label>
+											<div class="input-group select-group">
+												<i class="flaticon-settings highlight"></i>
+												<select aria-required="true" id="quote-cargo" name="quote-cargo" class="choice form-control">
+													<option value="" selected data-default>Is this an out of state move? </option>
+													<option value="type1">Yes</option>
+													<option value="type2">No</option>
+												</select>
+												<i class="rt-icon2-chevron-thin-down"></i>
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-info" class="sr-only">Total Mileage (Original Address-New Address)</label>
+											<div class="input-group">
+												<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="Total Mileage (Original Address-New Address)">
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-info" class="sr-only">How many bedrooms does your unit contain?</label>
+											<div class="input-group">
+												<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="How many bedrooms does your unit contain?">
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-info" class="sr-only">How many full-size rooms does your unit contain? (family/living/den rooms/offices) </label>
+											<div class="input-group">
+												<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="How many full-size rooms does your unit contain? (family/living/den rooms/offices) ">
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-info" class="sr-only">How many bathrooms does your unit have?</label>
+											<div class="input-group">
+												<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="How many bathrooms does your unit have?">
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-cargo" class="sr-only">Are there additional storage places? (Garage, addict, sheds)</label>
+											<div class="input-group select-group">
+												<i class="flaticon-settings highlight"></i>
+												<select aria-required="true" id="quote-cargo" name="quote-cargo" class="choice form-control">
+													<option value="" selected data-default>Are there additional storage places? (Garage, addict, sheds)</option>
+													<option value="type1">Yes</option>
+													<option value="type2">No</option>
+													<option value="type2">Other</option>
+												</select>
+												<i class="rt-icon2-chevron-thin-down"></i>
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-info" class="sr-only">How many Large boxes are you moving? (Approx)</label>
+											<div class="input-group">
+												<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="How many Large boxes are you moving? (Approx)">
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-info" class="sr-only">How many Medium boxes are you moving? (Aprrox)</label>
+											<div class="input-group">
+												<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="How many Medium boxes are you moving? (Aprrox)">
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-info" class="sr-only">How many Small boxes are you moving? (Approx)</label>
+											<div class="input-group">
+												<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="How many Small boxes are you moving? (Approx)">
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-info" class="sr-only">How many Queen/King size beds are you moving?</label>
+											<div class="input-group">
+												<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="How many Queen/King size beds are you moving?">
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-info" class="sr-only">How many Full/Twin size beds are you moving? </label>
+											<div class="input-group">
+												<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="How many Full/Twin size beds are you moving? ">
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-info" class="sr-only">How many couches are you moving? </label>
+											<div class="input-group">
+												<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="How many couches are you moving? ">
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-info" class="sr-only">How many Dresser/Cabinet style items are you moving?</label>
+											<div class="input-group">
+												<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="How many Dresser/Cabinet style items are you moving?">
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-info" class="sr-only">How many Televisions are you moving? </label>
+											<div class="input-group">
+												<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="How many Televisions are you moving? ">
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-info" class="sr-only">How many chairs are you going to move? (approx) </label>
+											<div class="input-group">
+												<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="How many chairs are you going to move? (approx) ">
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-info" class="sr-only">How many tables are you going to move? (approx)  </label>
+											<div class="input-group">
+												<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="How many tables are you going to move? (approx) ">
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-info" class="sr-only">Is there any outdoor furniture? (Please list and explain)</label>
+											<div class="input-group">
+												<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="Is there any outdoor furniture? (Please list and explain)">
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-info" class="sr-only">What appliances need to be moved?</label>
+											<div class="input-group">
+												<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="What appliances need to be moved? ">
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-info" class="sr-only">Are any of the above appliances going to need to be disconnected or reconnected? </label>
+											<div class="input-group">
+												<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="Are any of the above appliances going to need to be disconnected or reconnected? ">
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-info" class="sr-only">Do you have any items that need to be disassembled or reassembled?</label>
+											<div class="input-group">
+												<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="Do you have any items that need to be disassembled or reassembled? ">
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-info" class="sr-only">Will anything like ladders, bikes, weight lifting, treadmill, atvs, etc... need to be moved?</label>
+											<div class="input-group">
+												<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="Will anything like ladders, bikes, weight lifting, treadmill, atvs, etc... need to be moved?">
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-info" class="sr-only">Please upload photos of any over-sized and/or unusually sized items you will be moving.</label>
+											<div class="input-group">
+												<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="Please upload photos of any over-sized and/or unusually sized items you will be moving.">
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-cargo" class="sr-only">In the past two weeks has anyone in the current location experienced any COVID-19 related symptoms? (Or been in contact with someone who has/had COVID-19 in the last two weeks)</label>
+											<div class="input-group select-group">
+												<i class="flaticon-settings highlight"></i>
+												<select aria-required="true" id="quote-cargo" name="quote-cargo" class="choice form-control">
+													<option value="" selected data-default>In the past two weeks has anyone in the current location experienced any COVID-19 related symptoms? (Or been in contact with someone who has/had COVID-19 in the last two weeks)</option>
+													<option value="type1">Yes</option>
+													<option value="type2">No</option>
+													<option value="type2">Other</option>
+												</select>
+												<i class="rt-icon2-chevron-thin-down"></i>
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-cargo" class="sr-only">Are there any potential health hazards that the team may encounter in your home? (rodents, mold, shattered glass, etc.) We will contact you in regards to specificity.</label>
+											<div class="input-group select-group">
+												<i class="flaticon-settings highlight"></i>
+												<select aria-required="true" id="quote-cargo" name="quote-cargo" class="choice form-control">
+													<option value="" selected data-default>Are there any potential health hazards that the team may encounter in your home? (rodents, mold, shattered glass, etc.) We will contact you in regards to specificity.</option>
+													<option value="type1">Yes</option>
+													<option value="type2">No</option>
+													<option value="type2">Other</option>
+												</select>
+												<i class="rt-icon2-chevron-thin-down"></i>
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-cargo" class="sr-only">While we are working, is it acceptable for crew members to listen to music quietly?</label>
+											<div class="input-group select-group">
+												<i class="flaticon-settings highlight"></i>
+												<select aria-required="true" id="quote-cargo" name="quote-cargo" class="choice form-control">
+													<option value="" selected data-default>While we are working, is it acceptable for crew members to listen to music quietly?</option>
+													<option value="type1">Yes</option>
+													<option value="type2">No</option>
+												</select>
+												<i class="rt-icon2-chevron-thin-down"></i>
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-info" class="sr-only">If there are any additional items that need to be addressed please add them here. (Items seeking extra attention)</label>
+											<div class="input-group">
+												<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="If there are any additional items that need to be addressed please add them here. (Items seeking extra attention) ">
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-cargo" class="sr-only">While we are working, is it acceptable for crew members to listen to music quietly?</label>
+											<div class="input-group select-group">
+												<i class="flaticon-settings highlight"></i>
+												<select aria-required="true" id="quote-cargo" name="quote-cargo" class="choice form-control">
+													<option value="" selected data-default>While we are working, is it acceptable for crew members to listen to music quietly?</option>
+													<option value="type1">No, thanks!</option>
+													<option value="type2">Yes! Let's set up a time!</option>
+													<option value="type2">Other:</option>
+												</select>
+												<i class="rt-icon2-chevron-thin-down"></i>
+											</div>
+										</div>
+
+										<div class="bottommargin_10">
+											<label for="quote-info" class="sr-only">Questions or Concerns.</label>
+											<div class="input-group">
+												<input type="text" size="30" value="" name="quote-info" id="quote-info" class="form-control" placeholder="Questions or Concerns. ">
+											</div>
+										</div>
+
+
+
+
+
+										<div class="col-sm-12 text-center">
+											<button type="submit" id="quote_submit" name="quote_submit" class="theme_button color2 topmargin_10">Get a quote</button>
+										</div>
+</form>
 
 						</div>
 					</div>
@@ -963,7 +1270,7 @@
 						<div class="col-md-4 col-sm-12">
 							<img src="images/logo.jpg" alt="">
 							<p class="topmargin_40 bottommargin_30">
-								Aliquam suscipit dignissim mauris, in malesuada nibh consequat a. Suspendisse quis scelerisque sapien. Proin pulvinar porttitor metus vitae tinci. Pellentesque habitant morbi.
+								IF YOU ARE A STRUGGLING FINANCIALLY AND ARE A SINGLE PARENT PLEASE EMAIL MAMABOYMOVERS@GMAIL.COM SHARING YOUR SITUATION TO SEE HOW WE CAN HELP!
 							</p>
 							<div>
 								<a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-facebook"></a>
