@@ -476,7 +476,7 @@ function documentReadyInit() {
 	/////////////////////////////////////////////////
 
 	//contact form processing
-	jQuery('form.contact-form').on('submit', function( e ){
+	jQuery('#quote_submit').on('click', function( e ){
 		e.preventDefault();
 		var $form = jQuery(this);
 		jQuery($form).find('span.contact-form-respond').remove();
@@ -492,20 +492,22 @@ function documentReadyInit() {
 			return;
 		}
 
+
+
 		//sending form data to PHP server if fields are not empty
 		var request = $form.serialize();
-		var ajax = jQuery.post( "contact-form.php", request )
-		.done(function( data ) {
-			jQuery($form).find('[type="submit"]').attr('disabled', false).parent().append('<span class="contact-form-respond highlight">'+data+'</span>');
-			//cleaning form
-			var $formErrors = $form.find('.form-errors');
-			if ( !$formErrors.length ) {
-				$form[0].reset();
-			}
-		})
-		.fail(function( data ) {
-			jQuery($form).find('[type="submit"]').attr('disabled', false).parent().append('<span class="contact-form-respond highlight">Mail cannot be sent. You need PHP server to send mail.</span>');
-		})
+		//var ajax = jQuery.post( "contact-form.php", request )
+		//.done(function( data ) {
+		//	jQuery($form).find('[type="submit"]').attr('disabled', false).parent().append('<span class="contact-form-respond highlight">'+data+'</span>');
+		//	//cleaning form
+		//	var $formErrors = $form.find('.form-errors');
+		//	if ( !$formErrors.length ) {
+		//		$form[0].reset();
+		//	}
+		//})
+		//.fail(function( data ) {
+		//	jQuery($form).find('[type="submit"]').attr('disabled', false).parent().append('<span class="contact-form-respond highlight">Mail cannot be sent. You need PHP server to send mail.</span>');
+		//})
 	});
 
 
