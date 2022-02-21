@@ -701,7 +701,7 @@ function documentReadyInit() {
 
 	    jQuery('.instafeed').spectragram('getRecentTagged',{
 	      max: 6,
-	      query: 'MamaBoyMovers',
+	      query: 'MaxProtectionMoving',
 	      wrapEachWith: '<div class="photo">'
 	    });
 	  }

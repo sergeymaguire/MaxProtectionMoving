@@ -104,7 +104,7 @@
 
 	config.defaults = {};
 
-	$.reMamaBoyMoversokie = function (key, options) {
+	$.reMaxProtectionMovingokie = function (key, options) {
 		if ($.cookie(key) === undefined) {
 			return false;
 		}
