@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<title>MaxProtectionMoving</title>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css" id="color-switcher-link">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<!--[if lt IE 9]>
+		<div class="bg-danddddger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+
+	<div class="preloader">
+		<div class="preloader_image"></div>
+	</div>
+
+
+	<!-- search modal -->
+	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">
+				<i class="rt-icon2-cross2"></i>
+			</span>
+		</button>
+		<div class="widget widget_search">
+			<form method="get" class="searchform form-inline" action="./">
+				<div class="form-group">
+					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
+				</div>
+				<button type="submit" class="theme_button">Search</button>
+			</form>
+		</div>
+	</div>
+
+	<!-- Unyson messages modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+		<div class="fw-messages-wrap ls with_padding">
+			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+			<!--		
+		<ul>
+			<li>Message To User</li>
+		</ul>
+		-->
+
+		</div>
+	</div>
+	<!-- eof .modal -->
+
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+		<div id="box_wrapper">
+
+			<!-- template sections -->
+
+			<section class="page_toplogo table_section ls mainpge_toplogo section_padding_25">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4 col-lg-3 text-center text-sm-left">
+							<a href="./" class="logo">
+								<img src="" alt="">
+							</a>
+						</div>
+						<div class="col-sm-8 col-lg-9 text-center text-sm-right teasers-line">
+							<div class="media inline-block text-uppercase semibold small-teaser text-left">
+								<div class="grey bold">Any questions call or text at:</div>
+								1-805-336-6860/1-626-201-3361
+							</div>
+							<a class="media inline-block small-teaser text-left teaser-link hidden-xs hidden-sm" href="contact.html">
+								<span class="media-left media-middle">
+									<span class="teaser_icon border_icon round">
+										<i class="flaticon-house grey bold"></i>
+									</span>
+								</span>
+								<span class="media-body media-middle semibold">
+									<span class="bold grey">Idaho Ave</span>
+									<br> Escondido, CA
+								</span>
+							</a>
+							<a class="media inline-block small-teaser text-left teaser-link hidden-xs hidden-sm" href="mailto:maxprotectionmoving@gmail.com">
+								<span class="media-left media-middle">
+									<span class="teaser_icon border_icon round">
+										<i class="flaticon-envelope grey bold"></i>
+									</span>
+								</span>
+								<span class="media-body media-middle semibold">
+									<span class="bold grey">Send your mail at</span>
+									<br> maxprotectionmoving@gmail.com
+								</span>
+							</a>
+							<div>
+								<a href="#" class="social-icon border-icon rounded-icon theme-color2-icon soc-facebook"></a>
+								<a href="#" class="social-icon border-icon rounded-icon theme-color2-icon soc-twitter"></a>
+								<a href="#" class="social-icon border-icon rounded-icon theme-color2-icon soc-google"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<header class="page_header header_darkgrey ms toggle_menu_left">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-9">
+							<!-- main nav start -->
+							<nav class="mainmenu_wrapper">
+								<ul class="mainmenu nav sf-menu">
+									<li>
+										<a href="index.html">Home</a>
+									</li>
+
+									<li>
+										<a href="services.html">Services</a>
+										<!--<ul>
+											<li>
+												<a href="services.html">Services</a> Don't need the submenu items 
+											</li>
+											<li>
+												<a href="service-single.html">Service details</a>
+											</li>
+											<li>
+												<a href="free-quote.html">Free quote</a>
+											</li>
+										</ul>-->
+									</li>
+
+									<li>
+										<a href="plan-moving.html">Plan Moving</a>
+									</li>
+
+								
+								
+
+									<!-- contacts -->
+									<li>
+										<a href="contact.html">Contact us</a>
+										<!--<ul>
+											<li>
+												<a href="contact.html">Contact 1</a>
+											</li>
+											<li>
+												<a href="contact2.html">Contact 2</a>
+											</li>
+											<li>
+												<a href="contact3.html">Contact 3</a>
+											</li>
+										</ul>-->
+									</li>
+
+									<li>
+										<a href="#" class="search_modal_button">
+											<i class="flaticon-magnifying-glass"></i>
+										</a>
+									</li>
+									<!-- eof contacts -->
+								</ul>
+							</nav>
+							<!-- eof main nav -->
+						</div>
+						<!-- eof .header_mainmenu -->
+						<div class="col-md-3 text-right">
+							<span class="toggle_menu">
+								<span></span>
+							</span>
+							<a href="free-quote.html" class="theme_button">Get free quote</a>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<section class="intro_section page_mainslider">
+				<div class="flexslider">
+					<ul class="slides">
+						<li class="cs">
+							<img src="images/slide02.jpg" alt="">
+							<div class="bg_overlay">
+								<div class="frame"></div>
+							</div>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="slide_description_wrapper">
+											<div class="slide_description">
+												<div class="intro-layer to_animate" data-animation="fadeInLeft">
+													<p class="big">
+														Fast Moving?
+													</p>
+												</div>
+												<div class="intro-layer to_animate" data-animation="fadeInLeft">
+													<p class="divider_20">
+														When it's time to move out of your home or business, it's time to call
+														<span class="bold highlight2">Max Protection Moving</span>. We make it easy on you and faster than the other.
+													</p>
+												</div>
+												<div class="intro-layer to_animate" data-animation="fadeInLeft">
+													<a href="free-quote.html" class="theme_button color2">Order moving</a>
+												</div>
+											</div>
+											<!-- eof .slide_description -->
+										</div>
+										<!-- eof .slide_description_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+						<li class="cs">
+							<img src="images/slide02.jpg" alt="">
+							<div class="bg_overlay">
+								<div class="frame"></div>
+							</div>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="slide_description_wrapper">
+											<div class="slide_description">
+												<div class="intro-layer to_animate" data-animation="fadeInLeft">
+													<p class="big">
+														Fast Moving?
+													</p>
+												</div>
+												<div class="intro-layer to_animate" data-animation="fadeInLeft">
+													<p class="divider_20">
+														When it's time to move out of your home or business, it's time to call
+														<span class="bold highlight">Max Protection Moving</span>. We make it easy on you and faster than the other.
+													</p>
+												</div>
+												<div class="intro-layer to_animate" data-animation="fadeInLeft">
+													<a href="free-quote.html" class="theme_button">Order moving</a>
+												</div>
+											</div>
+											<!-- eof .slide_description -->
+										</div>
+										<!-- eof .slide_description_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+						<li class="cs">
+							<img src="images/slide03.jpg" alt="">
+							<div class="bg_overlay">
+								<div class="frame"></div>
+							</div>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="slide_description_wrapper">
+											<div class="slide_description">
+												<div class="intro-layer to_animate" data-animation="fadeInLeft">
+													<p class="big">
+														Fast Moving?
+													</p>
+												</div>
+												<div class="intro-layer to_animate" data-animation="fadeInLeft">
+													<p class="divider_20">
+														When it's time to move out of your home or business, it's time to call
+														<span class="bold highlight2">Max Protection Moving</span>. We make it easy on you and faster than the other.
+													</p>
+												</div>
+												<div class="intro-layer to_animate" data-animation="fadeInLeft">
+													<a href="free-quote.html" class="theme_button color2">Order moving</a>
+												</div>
+											</div>
+											<!-- eof .slide_description -->
+										</div>
+										<!-- eof .slide_description_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+					</ul>
+				</div>
+				<!-- eof flexslider -->
+			</section>
+
+			<section class="ls section_padding_top_65 section_padding_bottom_100 columns_margin_bottom_30 page_about">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-md-7">
+							<div class="framed-heading">
+								<h5 class="section_header">
+									We are
+									<span class="bold highlight2">Max Protection Moving</span>
+									<br>
+									<span class="small">Company</span>
+								</h5>
+							</div>
+							<p>
+								Max Protection LLC provides a professional moving experience for all clients by upholding our core values: customer satisfaction, efficiency, affordability, and integrity. It is our mission to be difference makers by actively serving in our communities. One of our main focuses is to help struggling single moms (parents), who are in need of moving assistance. Please click here for a quote. For special requests call or text (805) 336-6860 to get started!
+							</p>
+							<!--<a href="about.html" class="theme_button topmargin_30">Learn more</a>-->
+						</div>
+						<form>
+							<div class="col-md-5 col-lg-offset-1">
+								<div class="content-card with_background offset-card">
+									<h3 class="bold text-uppercase inverse_bg_color text-center">Contact Us</h3>
+									<div class="with_padding">
+
+										<div id="quote-form" method="post" action="./">
+											<div class="form-group">
+												<label for="quote-name" class="sr-only">
+													Name
+													<span class="required">*</span>
+												</label>
+												<div class="input-group">
+													<i class="flaticon-avatar highlight"></i>
+													<input type="text" aria-required="true" size="30" value="" name="quote-name" id="name-input" class="form-control" placeholder="Name">
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label for="quote-email" class="sr-only">
+													E-mail
+													<span class="required">*</span>
+												</label>
+												<div class="input-group">
+													<i class="flaticon-envelope highlight"></i>
+													<input type="text" aria-required="true" size="30" value="" name="quote-email" id="email-input" class="form-control" placeholder="E-mail">
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label for="quote-phone" class="sr-only">
+													Phone
+													<span class="required">*</span>
+												</label>
+												<div class="input-group">
+													<i class="flaticon-phone-call highlight"></i>
+													<input type="text" aria-required="true" size="30" value="" name="quote-phone" id="phone-input" class="form-control" placeholder="Phone">
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label for="quote-description" class="sr-only">
+													Description
+													<span class="required">*</span>
+												</label>
+												<div class="input-group">
+													<i class="flaticon-edit highlight"></i>
+													<textarea aria-required="true" rows="5" cols="45" name="quote-description" id="description-input" class="form-control" placeholder="Description"></textarea>
+												</div>
+											</div>
+
+											<div class="text-center topmargin_40">
+												<div class="g-recaptcha" data-sitekey="6Lc7cVMUAAAAAM1yxf64wrmO8gvi8A1oQ_ead1ys" class="form-control" style="width:100%;"></div>
+												<button type="button" onClick="submitToAPI(event)" class="btn btn-lg" style="margin-top:20px;">Submit</button>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+
+			<section class="section_padding_140 page_services intro_section2">
+				<div class="container-fluid">
+					<div class="row columns_margin_bottom_20">
+						<div class="col-md-8 content-block-left ls to_animate" data-animation="fadeInLeft">
+							<div class="row">
+								<div class="col-sm-6 to_animate" data-animation="pullDown">
+									<div class="media teaser">
+										<div class="media-left">
+											<div class="teaser_icon size_normal">
+												<i class="flaticon-house grey"></i>
+											</div>
+										</div>
+										<div class="media-body">
+											<h4 class="text-uppercase fontsize_20 extrabold bottommargin_20">Residential / Local</h4>
+											<p>
+												We offer packing equipment, packing instructions and tips as well as labor and support to make your move efficient and stress free.
+											</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-sm-6 to_animate" data-animation="pullDown">
+									<div class="media teaser">
+										<div class="media-left">
+											<div class="teaser_icon size_normal">
+												<i class="flaticon-package grey"></i>
+											</div>
+										</div>
+										<div class="media-body">
+											<h4 class="text-uppercase fontsize_20 extrabold bottommargin_20">box delivery</h4>
+											<p>
+												We have all the packing supplies, including boxes specifically for clothes, pictures and dishes as well as packing tape and bubble wrap.
+											</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-sm-6 to_animate" data-animation="pullDown">
+									<div class="media teaser">
+										<div class="media-left">
+											<div class="teaser_icon size_normal">
+												<i class="flaticon-truck grey"></i>
+											</div>
+										</div>
+										<div class="media-body">
+											<h4 class="text-uppercase fontsize_20 extrabold bottommargin_20">Commercial/Office</h4>
+											<p>
+												Whether it’s just moving floors or across the country, our movers are experienced and trained to effectively handle, transport, and equipment.
+											</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-sm-6 to_animate" data-animation="pullDown">
+									<div class="media teaser">
+										<div class="media-left">
+											<div class="teaser_icon size_normal">
+												<i class="flaticon-trolley grey"></i>
+											</div>
+										</div>
+										<div class="media-body">
+											<h4 class="text-uppercase fontsize_20 extrabold bottommargin_20">Loading/Unloading</h4>
+											<p>
+											 We do all the loading and unloading so sit back and relax!
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 content-block-right cs to_animate" data-animation="fadeInRightLong">
+							<div class="to_animate" data-animation="fadeInRight" data-delay="300">
+								<div class="framed-heading side-frame">
+									<h2 class="section_header">
+										Our
+										<br> services
+									</h2>
+								</div>
+								<p>
+									Moving is stressful! Involving many steps: the planning, organizing, communicating, packing, labeling, traveling, unpacking, and settling, no wonder people hate it! On top of it all, you shouldn’t have to worry that your belongings will be damaged or lost, or you’ll have an even bigger bill.  We take that burden away from you allowing you to spend stress free time with loved ones and friends. 
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="ls section_padding_100 columns_margin_bottom_30 section_padding_bottom_75">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-sm-6 text-center">
+							<div class="teaser counter-teaser media inline-block text-left">
+								<div class="media-left media-middle">
+									<div class="teaser_icon highlight2 size_big">
+										<i class="flaticon-like"></i>
+									</div>
+								</div>
+								<div class="media-body media-middle">
+									<h3 class="counter" data-from="0" data-to="8042" data-speed="1800">0</h3>
+									<p class="small-text">clients trust in us</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-sm-6 text-center">
+							<div class="teaser counter-teaser media inline-block text-left">
+								<div class="media-left media-middle">
+									<div class="teaser_icon highlight2 size_big">
+										<i class="flaticon-truck-1"></i>
+									</div>
+								</div>
+								<div class="media-body media-middle">
+									<h3 class="counter" data-from="0" data-to="10932" data-speed="1800">0</h3>
+									<p class="small-text">Miles for year</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-sm-6 text-center">
+							<div class="teaser counter-teaser media inline-block text-left">
+								<div class="media-left media-middle">
+									<div class="teaser_icon highlight2 size_big">
+										<i class="flaticon-trolley"></i>
+									</div>
+								</div>
+								<div class="media-body media-middle">
+									<h3 class="counter" data-from="0" data-to="5721" data-speed="1800">0</h3>
+									<p class="small-text">Tons of goods</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-sm-6 text-center">
+							<div class="teaser counter-teaser media inline-block text-left">
+								<div class="media-left media-middle">
+									<div class="teaser_icon highlight2 size_big">
+										<i class="flaticon-percentage"></i>
+									</div>
+								</div>
+								<div class="media-body media-middle">
+									<h3 class="counter" data-from="0" data-to="689" data-speed="1800">0</h3>
+									<p class="small-text">Held shares</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="cs section_padding_25">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center topmargin_0">
+							<div class="framed-heading top-offset-frame bottommargin_5">
+								<h2 class="section_header small">
+									Latest work
+								</h2>
+							</div>
+							<div class="filters isotope_filters greylinks text-center greylinks">
+								<a href="#" data-filter="*" class="selected">All</a>
+								<a href="#" data-filter=".kitchen">Kitchen</a>
+								<a href="#" data-filter=".bathroom">Bathroom</a>
+								<a href="#" data-filter=".hallway">Hallway</a>
+								<a href="#" data-filter=".livingroom">Living room</a>
+								<a href="#" data-filter=".nursery">Nursery</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="ls columns_padding_5 section_padding_5">
+				<div class="container">
+					<div class="isotope_container isotope row masonry-layout" data-filters=".isotope_filters">
+
+						<div class="col-md-3 col-sm-4 isotope-item margin_0"></div>
+
+						<div class="col-md-3 col-sm-4 isotope-item margin_0"></div>
+
+						<div class="col-md-3 col-sm-4 isotope-item margin_0"></div>
+
+						<div class="isotope-item col-md-6 col-sm-8 col-md-push-6 kitchen">
+
+							<div class="vertical-item gallery-item content-absolute vertical-center text-center square-item">
+								<div class="item-media">
+									<img src="images/work/15.jpg" alt="">
+									<div class="media-links">
+										<div class="links-wrap">
+											<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/11.png"></a>
+										</div>
+									</div>
+								</div>
+								<div class="item-content">
+									<div class="display_table">
+										<h4 class="item-meta display_table_cell">
+											<a href="gallery-single.html">working process</a>
+										</h4>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+
+						<div class="isotope-item col-md-3 col-sm-4 col-md-push-6 bathroom">
+
+							<div class="vertical-item gallery-item content-absolute vertical-center text-center square-item">
+								<div class="item-media">
+									<img src="images/work/11.jpg" alt="">
+									<div class="media-links">
+										<div class="links-wrap">
+											<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/12.png"></a>
+										</div>
+									</div>
+								</div>
+								<div class="item-content">
+									<div class="display_table">
+										<h4 class="item-meta display_table_cell">
+											<a href="gallery-single.html">working process</a>
+										</h4>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+
+						<div class="isotope-item col-md-3 col-sm-4 hallway">
+
+							<div class="vertical-item gallery-item content-absolute vertical-center text-center square-item">
+								<div class="item-media">
+									<img src="images/work/05.jpg" alt="">
+									<div class="media-links">
+										<div class="links-wrap">
+											<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/13.png"></a>
+										</div>
+									</div>
+								</div>
+								<div class="item-content">
+									<div class="display_table">
+										<h4 class="item-meta display_table_cell">
+											<a href="gallery-single.html">working process</a>
+										</h4>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+
+						<div class="isotope-item col-md-3 col-sm-4 livingroom">
+
+							<div class="vertical-item gallery-item content-absolute vertical-center text-center square-item">
+								<div class="item-media">
+									<img src="images/work/17.jpg" alt="">
+									<div class="media-links">
+										<div class="links-wrap">
+											<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/14.png"></a>
+										</div>
+									</div>
+								</div>
+								<div class="item-content">
+									<div class="display_table">
+										<h4 class="item-meta display_table_cell">
+											<a href="gallery-single.html">working process</a>
+										</h4>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+
+						<div class="isotope-item col-md-3 col-sm-4 nursery">
+
+							<div class="vertical-item gallery-item content-absolute vertical-center text-center square-item">
+								<div class="item-media">
+									<img src="images/work/16.jpg" alt="">
+									<div class="media-links">
+										<div class="links-wrap">
+											<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/15.png"></a>
+										</div>
+									</div>
+								</div>
+								<div class="item-content">
+									<div class="display_table">
+										<h4 class="item-meta display_table_cell">
+											<a href="gallery-single.html">working process</a>
+										</h4>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			
+
+			<section class="cs section_padding_75 parallax page_banner">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<div class="framed-heading to_animate" data-animation="fadeInUp">
+								<h2 class="section_header small">
+									plan your moving &amp;
+									<span class="highlight2">save $100</span>
+								</h2>
+							</div>
+							<div class="to_animate" data-animation="fadeInDown">
+								<p class="to_animate">
+									Save up to 100$ when planning your move with Max Protection Moving!
+								</p>
+								<a href="plan-moving.html" class="theme_button color2">Plan Moving</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="cs section_padding_top_100 section_padding_bottom_75 parallax page_testimonials columns_margin_bottom_30">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="framed-heading side-frame">
+								<h2 class="section_header">
+									Clients
+									<br> say
+								</h2>
+							</div>
+							<p class="leftmargin_50">
+								Here's what are clients love about us!
+							</p>
+						</div>
+						<div class="col-lg-8">
+							<div class="owl-carousel testimonials-carousel margin_0" height="500px" data-responsive-lg="2" data-responsive-md="2" data-responsive-sm="2" data-responsive-xs="1" data-nav="true" data-nav-container=".testimonials-carousel-nav">
+
+								<blockquote class="margin_0">
+									Max Protection Moving were the best movers i have ever had they are some of the nicest guys you will meet. They are very polite and friendly. They are quick at what they do and quick to load and unload. I will 10/10 recommend and use them again if I ever need them
+									<div class="item-meta">
+										<h5 class="highlight2">Zachary W.</h5>
+										<p>Director</p>
+									</div>
+								</blockquote>
+
+								<blockquote class="margin_0">
+									I can’t say enough about these movers. They were easy to work with and on time. Price was good and the move went perfect. They were so polite and made me feel comfortable about the handling of my furniture. I highly recommend these awesome guys!
+									<div class="item-meta">
+										<h5 class="highlight2">Julie N.</h5>
+										<p>Manager</p>
+									</div>
+								</blockquote>
+
+								<blockquote class="margin_0">
+									Max Protection Moving helped me move yesterday, both were professional and careful with all my items! they are very nice and will be using them for my upcoming move again for sure! highly recommend.		<div class="item-meta">
+										<h5 class="highlight2">Steve C.</h5>
+										<p>Manager</p>
+									</div>
+								</blockquote>
+
+								<blockquote class="margin_0">
+									This company was awesome to work with on our long-distance move. Prompt. Hardworking. Efficient. Careful and affordable. Highly recommend for all your moving needs big or small!!!!!!<div class="item-meta">
+										<h5 class="highlight2">Vincent B.</h5>
+										<p>Manager</p>
+									</div>
+								</blockquote>
+
+								<blockquote class="margin_0">
+									Great company - highly recommend! Called and chatted with owner directly. He was extremely helpful and pleasant to work with. Went out of his way to help us with an unexpected move as a result of my daughter’s school closing. Kept in touch throughout the day so we knew the schedule and his expected time of arrival
+									<div class="item-meta">
+										<h5 class="highlight2">Gail L.</h5>
+										<p>Director</p>
+									</div>
+								</blockquote>
+
+								<blockquote class="margin_0">
+									Awesome team. They arrived on time, got right to work and went the extra mile by providing supplies to fix an issue with stripped screws on furniture that was put together poorly by the delivery company! I whole heartedly recommend them and will use them for any future moving needs.
+									<div class="item-meta">
+										<h5 class="highlight2">Ruth L.</h5>
+										<p>Manager</p>
+									</div>
+								</blockquote>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid testimonials-carousel-nav owl-nav"></div>
+			</section>
+
+			<section class="ls section_padding_top_75 section_padding_bottom_100">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<div class="framed-heading bottommargin_15">
+								<h2 class="section_header">
+									Our Clients
+								</h2>
+							</div>
+							<!--<p>
+								Phasellus efficitur, massa posuere ultricies faucibus, purus ante dapibus tellus, ut venenatis massa magna ut justo. Nunc in molestie lectus eleifend.  don't need this section as no information or text is going to be added below it will just be the header and little client logos below "Our Client"
+							</p>-->
+						</div>
+					</div>
+					<div class="row topmargin_30">
+						<div class="col-md-2 col-sm-4 col-xs-6 text-center to_animate" data-animation="pullUp">
+							<a href="#" class="partner-link">
+								<img src="./images/partners/01.jpg" alt="" />
+							</a>
+						</div>
+						<div class="col-md-2 col-sm-4 col-xs-6 text-center to_animate" data-animation="pullUp">
+							<a href="#" class="partner-link">
+								<img src="./images/partners/02.jpg" alt="" />
+							</a>
+						</div>
+						<div class="col-md-2 col-sm-4 col-xs-6 text-center to_animate" data-animation="pullUp">
+							<a href="#" class="partner-link">
+								<img src="./images/partners/03.jpg" alt="" />
+							</a>
+						</div>
+						<div class="col-md-2 col-sm-4 col-xs-6 text-center to_animate" data-animation="pullUp">
+							<a href="#" class="partner-link">
+								<img src="./images/partners/04.jpg" alt="" />
+							</a>
+						</div>
+						<div class="col-md-2 col-sm-4 col-xs-6 text-center to_animate" data-animation="pullUp">
+							<a href="#" class="partner-link">
+								<img src="./images/partners/05.jpg" alt="" />
+							</a>
+						</div>
+						<div class="col-md-2 col-sm-4 col-xs-6 text-center to_animate" data-animation="pullUp">
+							<a href="#" class="partner-link">
+								<img src="./images/partners/06.jpg" alt="" />
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="cs section_padding_40">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-6">
+							<div class="media inline-block small-teaser text-left teaser-link">
+								<span class="media-left media-middle">
+									<span class="teaser_icon border_icon round">
+										<i class="flaticon-phone-call"></i>
+									</span>
+								</span>
+								<span class="media-body media-middle semibold">
+									<span class="bold grey">Any Questions Call or Text At:</span>
+									<br> 1-805-336-6860/1-626-201-3361
+								</span>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<a class="media inline-block small-teaser text-left teaser-link" href="contact.html">
+								<span class="media-left media-middle">
+									<span class="teaser_icon border_icon round">
+										<i class="flaticon-house"></i>
+									</span>
+								</span>
+								<span class="media-body media-middle semibold">
+									<span class="bold grey">Idaho Ave</span>
+									<br> Escondido, CA
+								</span>
+							</a>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="media inline-block small-teaser text-left teaser-link">
+								<span class="media-left media-middle">
+									<span class="teaser_icon border_icon round dark">
+										<i class="flaticon-paper-plane"></i>
+									</span>
+								</span>
+								<span class="media-body media-middle semibold">
+									<span class="bold grey">Mon-Sun</span>
+									<br> 7:00 AM - 7:00 PM
+								</span>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<a class="media inline-block small-teaser text-left teaser-link hidden-xs hidden-sm" href="mailto:maxprotectionmoving@gmail.com">
+								<span class="media-left media-middle">
+									<span class="teaser_icon border_icon round">
+										<i class="flaticon-envelope grey bold"></i>
+									</span>
+								</span>
+								<span class="media-body media-middle semibold">
+									<span class="bold grey">Send your mail at</span>
+									<br> maxprotectionmoving@gmail.com
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<footer class="page_footer ds ms color section_padding_75 columns_margin_bottom_30">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-12">
+							<!--<img src="images/logo-light.png" alt="">-->
+							<p class="topmargin_40 bottommargin_30">
+								IF YOU ARE A STRUGGLING FINANCIALLY AND ARE A SINGLE PARENT PLEASE EMAIL maxprotectionmoving@gmail.com SHARING YOUR SITUATION TO SEE HOW WE CAN HELP!
+							</p>
+							<div>
+								<a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-facebook"></a>
+								<a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-twitter"></a>
+								<a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-google"></a>
+								<a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-instagram"></a>
+								<a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-linkedin"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+			<section class="page_copyright cs main_color2 section_padding_15 columns_margin_0">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<p>&copy; MaxProtectionMoving 2021 | Created by Sergey Maguire	
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div>
+		<!-- eof #box_wrapper -->
+	</div>
+	<!-- eof #canvas -->
+
+	<script src="js/compressed.js"></script>
+	<script src="js/main.js"></script>
+
+
+</body>
+
+</html>
