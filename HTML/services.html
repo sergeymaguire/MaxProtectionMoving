@@ -7,461 +7,470 @@
 <!--<![endif]-->
 
 <head>
-	<title>MaxProtectionMoving</title>
-	<meta charset="utf-8">
-	<!--[if IE]>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<![endif]-->
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MaxProtectionMoving</title>
+    <meta charset="utf-8">
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <![endif]-->
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css" id="color-switcher-link">
-	<link rel="stylesheet" href="css/animations.css">
-	<link rel="stylesheet" href="css/fonts.css">
-	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css" id="color-switcher-link">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
-	<!--[if lt IE 9]>
-		<script src="js/vendor/html5shiv.min.js"></script>
-		<script src="js/vendor/respond.min.js"></script>
-		<script src="js/vendor/jquery-1.12.4.min.js"></script>
-	<![endif]-->
+    <!--[if lt IE 9]>
+        <script src="js/vendor/html5shiv.min.js"></script>
+        <script src="js/vendor/respond.min.js"></script>
+        <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <![endif]-->
 
 </head>
 
 <body>
-	<!--[if lt IE 9]>
-		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
-	<![endif]-->
-
-	<div class="preloader">
-		<div class="preloader_image"></div>
-	</div>
-
-
-	<!-- search modal -->
-	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
-		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			<span aria-hidden="true">
-				<i class="rt-icon2-cross2"></i>
-			</span>
-		</button>
-		<div class="widget widget_search">
-			<form method="get" class="searchform form-inline" action="./">
-				<div class="form-group">
-					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
-				</div>
-				<button type="submit" class="theme_button">Search</button>
-			</form>
-		</div>
-	</div>
-
-	<!-- Unyson messages modal -->
-	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
-		<div class="fw-messages-wrap ls with_padding">
-			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
-			<!--		
-		<ul>
-			<li>Message To User</li>
-		</ul>
-		-->
-
-		</div>
-	</div>
-	<!-- eof .modal -->
-
-	<!-- wrappers for visual page editor and boxed version of template -->
-	<div id="canvas">
-		<div id="box_wrapper">
-
-			<!-- template sections -->
-
-			<center>
-				<section class="page_toplogo table_section ls mainpge_toplogo section_padding_25">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-4 col-lg-3 text-center text-sm-left">
-								<a href="./" class="logo">
-									<img src="" alt="">
-								</a>
-							</div>
-							<div class="col-sm-8 col-lg-9 text-center text-sm-right teasers-line">
-								<div class="media inline-block text-uppercase semibold small-teaser text-left">
-									<div class="grey bold">Any Questions Call or Text At:</div>
-									1-805-336-6860/1-626-201-3361
-								</div>
-								<a class="media inline-block small-teaser text-left teaser-link hidden-xs hidden-sm" href="contact.html">
-									<span class="media-left media-middle">
-										<span class="teaser_icon border_icon round">
-											<i class="flaticon-house grey bold"></i>
-										</span>
-									</span>
-									<span class="media-body media-middle semibold">
-										<span class="bold grey">Idaho Ave</span>
-										<br> Escondido, CA
-									</span>
-								</a>
-								<a class="media inline-block small-teaser text-left teaser-link hidden-xs hidden-sm" href="mailto:maxprotectionmoving@gmail.com">
-									<span class="media-left media-middle">
-										<span class="teaser_icon border_icon round">
-											<i class="flaticon-envelope grey bold"></i>
-										</span>
-									</span>
-									<span class="media-body media-middle semibold">
-										<span class="bold grey">Send your mail at</span>
-										<br> maxprotectionmoving@gmail.com
-									</span>
-								</a>
-								<div>
-									<a href="#" class="social-icon border-icon rounded-icon theme-color2-icon soc-facebook"></a>
-									<a href="#" class="social-icon border-icon rounded-icon theme-color2-icon soc-twitter"></a>
-									<a href="#" class="social-icon border-icon rounded-icon theme-color2-icon soc-google"></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-
-				<header class="page_header header_darkgrey ms toggle_menu_left">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-9">
-								<!-- main nav start -->
-								<nav class="mainmenu_wrapper">
-									<ul class="mainmenu nav sf-menu">
-										<li>
-											<a href="index.html">Home</a>
-										</li>
-
-										<li>
-											<a href="services.html">Services</a>
-											<!--<ul>
-									<li>
-										<a href="services.html">Services</a>
-									</li>
-									<li>
-										<a href="service-single.html">Service details</a>
-									</li>
-									<li>
-										<a href="free-quote.html">Free quote</a>
-									</li>
-								</ul>-->
-										</li>
-
-										<li>
-											<a href="plan-moving.html">Plan Moving</a>
-										</li>
-
-										<!-- contacts -->
-										<li>
-											<a href="contact.html">Contact us</a>
-											<!--<ul>
-									<li>
-										<a href="contact.html">Contact 1</a>
-									</li>
-									<li>
-										<a href="contact2.html">Contact 2</a>
-									</li>
-									<li>
-										<a href="contact3.html">Contact 3</a>
-									</li>
-								</ul>-->
-										</li>
-
-										<li>
-											<a href="#" class="search_modal_button">
-												<i class="flaticon-magnifying-glass"></i>
-											</a>
-										</li>
-										<!-- eof contacts -->
-									</ul>
-								</nav>
-								<!-- eof main nav -->
-							</div>
-							<!-- eof .header_mainmenu -->
-							<div class="col-md-3 text-right">
-								<span class="toggle_menu">
-									<span></span>
-								</span>
-								<a href="free-quote.html" class="theme_button">Get free quote</a>
-							</div>
-						</div>
-					</div>
-				</header>
-
-				<section class="page_breadcrumbs template_breadcrumbs ds parallax">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="breadcrumbs_wrap col-lg-5 col-md-7 col-sm-8 text-right to_animate" data-animation="fadeInLeftLong">
-								<div class="to_animate" data-animation="fadeInLeft" data-delay="500">
-									<h2>Our services</h2>
-								</div>
-
-								<ol class="breadcrumb greylinks to_animate" data-animation="fadeInLeft" data-delay="400">
-									<li>
-										<a href="./">
-											Home
-										</a>
-									</li>
-									<!--<li>
-							<a href="#">pages</a>
-						</li>-->
-									<!--<li class="active">Our services</li>-->
-								</ol>
-							</div>
-						</div>
-					</div>
-				</section>
-
-				<section id="Services" class="ls section_padding_top_100 section_padding_bottom_75">
-
-					<div class="container">
-
-
-						<div>
-
-							<div>
-
-								<article class="vertical-item content-padding with_border blog-item">
-									<div class="item-content">
-										<header class="entry-header">
-
-											<h3 class="entry-title medium">
-												<a href="service-single.html" rel="bookmark">Professional services we provide</a>
-											</h3>
-
-										</header>
-
-										<p>It is our mission to be difference makers in our community by actively serving in our communities, specifically to single moms (parents) who are seeking moving assistance. For all struggling single parents reduced rates will be offered. Over time Max Protection aims to become a Non Profit organization that will assist struggling single mom’s into their new homes, eliminating all of the expenses of the move. Max Protection provides a professional moving experience for all clients by upholding our core values.</p>
-
-										<ul class="list2 highlight small-text">
-											<li>24/7 AVAILALITY</li>
-											<li>DEDICATED TEAM</li>
-											<li>GURANTEED SATISFACTION</li>
-											<li>FREE ESTIMATE</li>
-										</ul>
-
-
-									</div>
-								</article>
-
-							</div>
-
-							<div>
-
-								<article class="vertical-item content-padding with_border blog-item">
-									<div class="item-media">
-										<img src="images/gallery/20.jpg" alt="">
-									</div>
-									<div class="item-content">
-										<header class="entry-header">
-
-											<h3 class="entry-title">
-												<a href="service-single.html" rel="bookmark">Local Moves</a>
-											</h3>
-
-										</header>
-
-										<p>Sit back and relax, our all inclusive moving service includes a box truck, experienced crew, and moving supplies (moving blankets, dollies, tie downs, and tools). The truck and crew size is customized to your moving needs and request!</p>
-
-										<!--<a href="" class="small-text extrabold">MaxProtectionMoving</a>-->
-									</div>
-								</article>
-
-							</div>
-
-							<div>
-
-								<article class="vertical-item content-padding with_border blog-item">
-									<div class="item-media">
-										<img src="images/gallery/21.jpg" alt="">
-									</div>
-									<div class="item-content">
-										<header class="entry-header">
-
-											<h3 class="entry-title">
-												<a href="service-single.html" rel="bookmark">Office relocation</a>
-											</h3>
-
-										</header>
-
-										<p>Sit back and relax, our all inclusive moving service includes a box truck, experienced crew, and moving supplies (moving blankets, dollies, tie downs, and tools). The truck and crew size is customized to your moving needs and request! We are available after hours upon request. This option allows you to move your buisness when the office is empty.</p>
-									</div>
-								</article>
-
-							</div>
-
-							<div>
-
-								<article class="vertical-item content-padding with_border blog-item">
-									<div class="item-media">
-										<img src="images/gallery/22.jpg" alt="">
-									</div>
-									<div class="item-content">
-										<header class="entry-header">
-
-											<h3 class="entry-title">
-												<a href="service-single.html" rel="bookmark">Crew Moves</a>
-											</h3>
-
-										</header>
-
-										<p>Do you have a truck and need us to load/unload? Do you need help loading/unloading a pod? Do you need help with organizing your garage or shed? Do you simply need heavy items moved?</p>
-
-										<!--<a href="" class="small-text extrabold">MaxProtectionMoving</a>-->
-									</div>
-								</article>
-
-							</div>
-
-
-							<div>
-
-								<article class="vertical-item content-padding with_border blog-item">
-									<div class="item-media">
-										<img src="images/gallery/23.jpg" alt="">
-									</div>
-									<div class="item-content">
-										<header class="entry-header">
-
-											<h3 class="entry-title">
-												<a href="service-single.html" rel="bookmark">Long Distance Moves</a>
-											</h3>
-
-										</header>
-
-										<p>
-											Sit back and relax, our all inclusive moving service that includes box truck, experienced crew, and moving supplies (moving blankets, dollies, tie downs, and tools). The truck and crew size is customized to your moving needs and request!
-											*ALL LONG DISTANCE MOVES ARE A FLAT RATE.*
-										</p>
-
-										<!--<a href="" class="small-text extrabold">MaxProtectionMoving</a>-->
-									</div>
-								</article>
-
-							</div>
-
-						</div>
-						<!-- eof .isotope_container.row -->
-
-					</div>
-				</section>
-			</center>
-
-			<section class="parallax intro-section3 section_padding_90 get_quote table_section table_section_md">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 col-lg-5 bg_overlay cs to_animate" data-animation="fadeInLeftLong">
-							<div class="framed-heading to_animate" data-animation="fadeInLeft" data-delay="600">
-								<h2 class="section_header">
-									Contact Us
-								</h2>
-							</div>
-							<p class="to_animate" data-animation="fadeInLeft" data-delay="400">
-								Max Protection specializes in short and long distance moves, residential moving services, and office moving services. We strive to provide the highest quality service in an effiicent amount of time to ensure your move goes as smooth as possible. Call in or click for a free quote today!
-							</p>
-							<!--<p class="to_animate" data-animation="fadeInLeft" data-delay="350">
-								Curabitur tortor leo, placerat non tincidunt sit amet, ullamcorper a justo. Vivamus enim ante, laoreet sed tristique sit amet, faucibus non nisi. Suspendisse facilisis metus tellus, sed auctor urna.
-							</p>-->
-						</div>
-						<div class="col-lg-1"></div>
-						<div class="col-md-6 to_animate" data-animation="fadeInRight">
-							<div class="with_big_padding transparent_bg ls">
-
-								<form class="quote-form" method="post" action="./">
-									<div class="form-group">
-										<label for="quote-name" class="sr-only">Name
-											<span class="required">*</span>
-										</label>
-										<div class="input-group">
-											<i class="flaticon-avatar highlight"></i>
-											<input type="text" aria-required="true" size="30" value="" name="quote-name" id="quote-name" class="form-control" placeholder="Name">
-										</div>
-									</div>
-
-									<div class="form-group">
-										<label for="quote-email" class="sr-only">E-mail
-											<span class="required">*</span>
-										</label>
-										<div class="input-group">
-											<i class="flaticon-envelope highlight"></i>
-											<input type="text" aria-required="true" size="30" value="" name="quote-email" id="quote-email" class="form-control" placeholder="E-mail">
-										</div>
-									</div>
-
-									<div class="form-group">
-										<label for="quote-phone" class="sr-only">Phone
-											<span class="required">*</span>
-										</label>
-										<div class="input-group">
-											<i class="flaticon-phone-call highlight"></i>
-											<input type="text" aria-required="true" size="30" value="" name="quote-phone" id="quote-phone" class="form-control" placeholder="Phone">
-										</div>
-									</div>
-
-									<div class="form-group">
-										<label for="quote-description" class="sr-only">Description
-											<span class="required">*</span>
-										</label>
-										<div class="input-group">
-											<i class="flaticon-edit highlight"></i>
-											<textarea aria-required="true" rows="5" cols="45" name="quote-description" id="quote-description" class="form-control" placeholder="Description"></textarea>
-										</div>
-									</div>
-
-									<div class="text-center topmargin_40">
-										<button type="submit" id="quote_submit" name="quote_submit" class="theme_button color2">Send request</button>
-									</div>
-								</form>
-
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<footer class="page_footer ds ms color section_padding_75 columns_margin_bottom_30">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-4 col-sm-12">
-							<!--<img src="images/logo-light.png" alt="">-->
-							<p class="topmargin_40 bottommargin_30">
-								IF YOU ARE A STRUGGLING FINANCIALLY AND ARE A SINGLE PARENT PLEASE EMAIL maxprotectionmoving@gmail.com SHARING YOUR SITUATION TO SEE HOW WE CAN HELP!
-							</p>
-							<div>
-								<a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-facebook"></a>
-								<a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-twitter"></a>
-								<a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-google"></a>
-								<a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-instagram"></a>
-								<a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-linkedin"></a>
-							</div>
-						</div>	
-					</div>
-				</div>
-			</footer>
-
-			<section class="page_copyright cs main_color2 section_padding_15 columns_margin_0">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12 text-center">
-							<p>&copy; MaxProtectionMoving 2021 | Created by
-								
-								<a href="">Sergey Maguire</a>
-							</p>
-						</div>
-					</div>
-				</div>
-			</section>
-
-		</div>
-		<!-- eof #box_wrapper -->
-	</div>
-	<!-- eof #canvas -->
-
-	<script src="js/compressed.js"></script>
-	<script src="js/main.js"></script>
+    <!--[if lt IE 9]>
+        <div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+    <![endif]-->
+
+    <div class="preloader">
+        <div class="preloader_image"></div>
+    </div>
+
+
+    <!-- search modal -->
+    <div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+                <i class="rt-icon2-cross2"></i>
+            </span>
+        </button>
+        <div class="widget widget_search">
+            <form method="get" class="searchform form-inline" action="./">
+                <div class="form-group">
+                    <input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
+                </div>
+                <button type="submit" class="theme_button">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Unyson messages modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+        <div class="fw-messages-wrap ls with_padding">
+            <!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+            <!--
+            <ul>
+                <li>Message To User</li>
+            </ul>
+            -->
+
+        </div>
+    </div>
+    <!-- eof .modal -->
+    <!-- wrappers for visual page editor and boxed version of template -->
+    <div id="canvas">
+        <div id="box_wrapper">
+
+            <!-- template sections -->
+
+            <section class="page_toplogo table_section ls mainpge_toplogo section_padding_25">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 col-lg-3 text-center text-sm-left">
+                            <a href="./" class="logo">
+                                <img src="" alt="">
+                            </a>
+                        </div>
+                        <div class="col-sm-8 col-lg-9 text-center text-sm-right teasers-line">
+                            <div class="media inline-block text-uppercase semibold small-teaser text-left">
+                                <div class="grey bold">Any questions call or text at:</div>
+                                <span>
+                                    <a href="tel:7608773065">1-760-877-3065</a>
+                                    <a href="tel:8584328050">1-858-432-8050</a>
+                                </span>
+                            </div>
+                            <a class="media inline-block small-teaser text-left teaser-link hidden-xs hidden-sm" href="contact.html">
+                                <span class="media-left media-middle">
+                                    <span class="teaser_icon border_icon round">
+                                        <i class="flaticon-house grey bold"></i>
+                                    </span>
+                                </span>
+                                <span class="media-body media-middle semibold">
+                                    <span class="bold grey">Idaho Ave</span>
+                                    <br> San Diego, CA
+                                </span>
+                            </a>
+                            <a class="media inline-block small-teaser text-left teaser-link hidden-xs hidden-sm" href="mailto:maxprotectionmoving@gmail.com">
+                                <span class="media-left media-middle">
+                                    <span class="teaser_icon border_icon round">
+                                        <i class="flaticon-envelope grey bold"></i>
+                                    </span>
+                                </span>
+                                <span class="media-body media-middle semibold">
+                                    <span class="bold grey">Send your mail at</span>
+                                    <br> maxprotectionmoving@gmail.com
+                                </span>
+                            </a>
+                            <div>
+                                <a target="_blank" href="https://instagram.com/maxprotectionmoving?igshid=NDc0ODY0MjQ=" class="social-icon border-icon rounded-icon theme-color2-icon soc-instagram"></a>
+                                <!--<a href="#" class="social-icon border-icon rounded-icon theme-color2-icon soc-twitter"></a>-->
+                                <a target="_blank" href="https://maps.app.goo.gl/xmv3aLr5RLMUc9yT8?g_st=ic" class="social-icon border-icon rounded-icon theme-color2-icon soc-google"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <header class="page_header header_darkgrey ms toggle_menu_left">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <!-- main nav start -->
+                            <nav class="mainmenu_wrapper">
+                                <ul class="mainmenu nav sf-menu">
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="services.html">Services</a>
+
+                                    </li>
+
+                                    <li>
+                                        <a href="plan-moving.html">Plan Moving</a>
+                                    </li>
+
+
+
+                                    <!-- contacts -->
+                                    <li>
+                                        <a href="contact.html">Contact us</a>
+                                        <!--<ul>
+                                    <li>
+                                        <a href="contact.html">Contact 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact2.html">Contact 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact3.html">Contact 3</a>
+                                    </li>
+                                </ul>-->
+                                    </li>
+
+                                    <!-- eof contacts -->
+                                </ul>
+                            </nav>
+                            <!-- eof main nav -->
+                        </div>
+                        <!-- eof .header_mainmenu -->
+                        <div class="col-md-3 text-right">
+                            <span class="toggle_menu">
+                                <span></span>
+                            </span>
+                            <a href="free-quote.html" class="theme_button">Get free quote</a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="page_breadcrumbs template_breadcrumbs ds parallax">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="breadcrumbs_wrap col-lg-5 col-md-7 col-sm-8 text-right to_animate" data-animation="fadeInLeftLong">
+                            <div class="to_animate" data-animation="fadeInLeft" data-delay="500">
+                                <h2>Our Services</h2>
+                            </div>
+
+                            <ol class="breadcrumb greylinks to_animate" data-animation="fadeInLeft" data-delay="400">
+                                <li>
+                                    <a href="./">
+                                        Home
+                                    </a>
+                                </li>
+                                <!--<li>
+                            <a href="#">pages</a>
+                        </li>
+                        <li class="active">Free quote</li>-->
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="Services" class="ls section_padding_top_100 section_padding_bottom_75">
+
+                <div class="container">
+
+
+                    <div class="row">
+
+                        <div>
+
+                            <article class="vertical-item content-padding with_border blog-item">
+                                <div class="item-content">
+                                    <header class="entry-header">
+
+                                        <h3 class="entry-title medium">
+                                            <a href="service-single.html" rel="bookmark">Professional services we provide</a>
+                                        </h3>
+
+                                    </header>
+
+                                    <p>It is our mission to both work hard, and carry a smile throughout that hard work. When  booking your move with Max Protection Moving you can expect to receive the highest level of customer care and customer service. We pride ourselves on bringing a great attitude to every job and leaving every customer with complete satisfaction! </p>
+
+                                    <ul class="list2 highlight small-text">
+                                        <li>Detailed Communication About our Services</li>
+                                        <li>Dedicated team to provide a Max Protection style experience</li>
+                                        <li>Free estimate for any situation</li>
+                                        <li>Answers for all your moving related questions </li>
+                                    </ul>
+
+
+                                </div>
+                            </article>
+
+                        </div>
+
+                        <div>
+
+                            <article class="vertical-item content-padding with_border blog-item">
+                                <div class="item-media">
+                                    <img src="images/gallery/20.jpg" alt="">
+                                </div>
+                                <div class="item-content">
+                                    <header class="entry-header">
+
+                                        <h3 class="entry-title">
+                                            <a href="service-single.html" rel="bookmark">Full-Service Residential/Commercial </a>
+                                        </h3>
+
+                                    </header>
+
+                                    <p>
+                                        Our Full-Service option gives the most “hands-off” experience to our customers. Let us provide the crew, boxes and boxing materials, furniture-packing materials, box truck, and protections for your move! When you want to leave it ALL to the pros, ask about our Full-Service option. Local and Long-Distance!
+                                    </p>
+
+                                    <!--<a href="" class="small-text extrabold">MaxProtectionMoving</a>-->
+                                </div>
+                            </article>
+
+                        </div>
+
+                        <div>
+
+                            <article class="vertical-item content-padding with_border blog-item">
+                                <div class="item-media">
+                                    <img src="images/gallery/21.jpg" alt="">
+                                </div>
+                                <div class="item-content">
+                                    <header class="entry-header">
+
+                                        <h3 class="entry-title">
+                                            <a href="service-single.html" rel="bookmark">You-Pack, We-Protect</a>
+                                        </h3>
+
+                                    </header>
+
+                                    <p>
+                                        If you prefer to take on the box-packing on your own, we have the perfect option for you! We are more than happy to provide the crew and truck to transport those boxes! As well as provide all protective materials for your big ticket items and furniture, paired with our Full-Value Protection.
+                                    </p>
+                                </div>
+                            </article>
+
+                        </div>
+
+                        <div>
+
+                            <article class="vertical-item content-padding with_border blog-item">
+                                <div class="item-media">
+                                    <img src="images/gallery/22.jpg" alt="">
+                                </div>
+                                <div class="item-content">
+                                    <header class="entry-header">
+
+                                        <h3 class="entry-title">
+                                            <a href="service-single.html" rel="bookmark">Moving Labor Crew </a>
+                                        </h3>
+
+                                    </header>
+
+                                    <p>
+                                        Just need some labor to help you move some things around? We provide a labor-only option for our customers who just need some muscle for a bit, or for a while! Whether loading, unloading, or shifting some furniture, we are there to help!
+                                    </p>
+
+                                    <!--<a href="" class="small-text extrabold">MaxProtectionMoving</a>-->
+                                </div>
+                            </article>
+
+                        </div>
+
+
+                        <div>
+
+                            <article class="vertical-item content-padding with_border blog-item">
+                                <div class="item-media">
+                                    <img src="images/gallery/23.jpg" alt="">
+                                </div>
+                                <div class="item-content">
+                                    <header class="entry-header">
+
+                                        <h3 class="entry-title">
+                                            <a href="service-single.html" rel="bookmark">Other services needed?</a>
+                                        </h3>
+
+                                    </header>
+
+                                    <p>
+                                        Don’t happen to see what you’re looking for? No need to worry! Give us a call with your specific moving needs and we can tailor a service to ensure complete satisfaction every time! If we can’t help, we can help find someone who can!
+
+                                    </p>
+
+                                    <!--<a href="" class="small-text extrabold">MaxProtectionMoving</a>-->
+                                </div>
+                            </article>
+
+                        </div>
+                        <!-- eof .isotope_container.row -->
+                    </div>
+
+                </div>
+            </section>
+
+
+
+            <section class="parallax intro-section3 section_padding_90 get_quote table_section table_section_md">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-5 bg_overlay cs to_animate" data-animation="fadeInLeftLong">
+                            <div class="framed-heading to_animate" data-animation="fadeInLeft" data-delay="600">
+                                <h2 class="section_header">
+                                    Contact Us
+                                </h2>
+                            </div>
+                            <p class="to_animate" data-animation="fadeInLeft" data-delay="400">
+                                Max Protection specializes in short and long distance moves, residential moving services, and office moving services. We strive to provide the highest quality service in an effiicent amount of time to ensure your move goes as smooth as possible. Call in or click for a free quote today!
+                            </p>
+                            <!--<p class="to_animate" data-animation="fadeInLeft" data-delay="350">
+                        Curabitur tortor leo, placerat non tincidunt sit amet, ullamcorper a justo. Vivamus enim ante, laoreet sed tristique sit amet, faucibus non nisi. Suspendisse facilisis metus tellus, sed auctor urna.
+                    </p>-->
+                        </div>
+                        <div class="col-lg-1"></div>
+                        <div class="col-md-6 to_animate" data-animation="fadeInRight">
+                            <div class="with_big_padding transparent_bg ls">
+
+                                <form class="quote-form" method="post" action="./">
+                                    <div class="form-group">
+                                        <label for="quote-name" class="sr-only">
+                                            Name
+                                            <span class="required">*</span>
+                                        </label>
+                                        <div class="input-group">
+                                            <i class="flaticon-avatar highlight"></i>
+                                            <input type="text" aria-required="true" size="30" value="" name="quote-name" id="quote-name" class="form-control" placeholder="Name">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="quote-email" class="sr-only">
+                                            E-mail
+                                            <span class="required">*</span>
+                                        </label>
+                                        <div class="input-group">
+                                            <i class="flaticon-envelope highlight"></i>
+                                            <input type="text" aria-required="true" size="30" value="" name="quote-email" id="quote-email" class="form-control" placeholder="E-mail">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="quote-phone" class="sr-only">
+                                            Phone
+                                            <span class="required">*</span>
+                                        </label>
+                                        <div class="input-group">
+                                            <i class="flaticon-phone-call highlight"></i>
+                                            <input type="text" aria-required="true" size="30" value="" name="quote-phone" id="quote-phone" class="form-control" placeholder="Phone">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="quote-description" class="sr-only">
+                                            Description
+                                            <span class="required">*</span>
+                                        </label>
+                                        <div class="input-group">
+                                            <i class="flaticon-edit highlight"></i>
+                                            <textarea aria-required="true" rows="5" cols="45" name="quote-description" id="quote-description" class="form-control" placeholder="Description"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-center topmargin_40">
+                                        <button type="submit" id="quote_submit" name="quote_submit" class="theme_button color2">Send request</button>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            <footer class="page_footer ds ms color section_padding_75 columns_margin_bottom_30">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <!--<img src="images/logo-light.png" alt="">-->
+                            <p class="topmargin_40 bottommargin_30">
+                                IF YOU ARE A STRUGGLING FINANCIALLY AND ARE A SINGLE PARENT PLEASE EMAIL maxprotectionmoving@gmail.com SHARING YOUR SITUATION TO SEE HOW WE CAN HELP!
+                            </p>
+                            <div>
+                                <a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-facebook"></a>
+                                <a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-twitter"></a>
+                                <a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-google"></a>
+                                <a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-instagram"></a>
+                                <a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-linkedin"></a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="widget widget_instagram">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            <section class="page_copyright cs main_color2 section_padding_15 columns_margin_0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <p>
+                                &copy; MaxProtectionMoving 2021 | Created
+                                <i></i> by
+                                <a href="">Sergey Maguire</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <!-- eof #box_wrapper -->
+    </div>
+    <!-- eof #canvas -->
+
+    <script src="js/compressed.js"></script>
+    <script src="js/main.js"></script>
 
 
 </body>
